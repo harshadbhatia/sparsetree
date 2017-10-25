@@ -2,33 +2,34 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="author" content="Harshad Bhatia" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Harshad Bhatia"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>Sparse Tree</title>
+    <title>Sparse Tree</title>
 
-<!--Stylesheet-->
+    <!--Stylesheet-->
 
-<!--[if IE 7]>
+    <!--[if IE 7]>
 <link rel="stylesheet" href="{% static 'apps/css/fontello-ie7.css' %}"><![endif]-->
 
-<link href="{% static 'apps/css/font.css' %}" rel="stylesheet" type="text/css">
-<link href="{% static 'apps/css/fontello.css' %}" rel="stylesheet" type="text/css">
-<link href="{% static 'apps/css/base.css' %}" rel="stylesheet" type="text/css">
-<link href="{% static 'apps/css/skeleton.css' %}" rel="stylesheet" type="text/css">
-<link href="{% static 'apps/css/main.css' %}" rel="stylesheet" type="text/css">
-<link href="{% static 'apps/css/magnific-popup.css' %}" rel="stylesheet"  />
-<link href="{% static 'apps/css/flexslider.css' %}" rel="stylesheet" />
+    <link href="{% static 'apps/css/font.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'apps/css/fontello.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'apps/css/font-awesome.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'apps/css/font-awesome-color-brand.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'apps/css/base.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'apps/css/skeleton.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'apps/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'apps/css/magnific-popup.css' %}" rel="stylesheet"/>
+    <link href="{% static 'apps/css/flexslider.css' %}" rel="stylesheet"/>
 
 
-
-<!--[if lt IE 9]>
+    <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
 
-<!--[if lt IE 8]>
+    <!--[if lt IE 8]>
 <style>
 /* For IE < 8 (trigger hasLayout) */
 .clearfix {
@@ -42,707 +43,462 @@
 
 <body>
 
-	<!-- Preloader -->
-	<div id="loader">
-	  <div id="loaderInner"></div>
-	</div>
+<!-- Preloader -->
+<div id="loader">
+    <div id="loaderInner"></div>
+</div>
 
 <!--Wrapper-->
 <div id="wrapper">
 
 
-	<!--Header-->
-	<header id="header">
+    <!--Header-->
+    <header id="header">
 
-		<!--Main header-->
-			<div class="mainHeader">
+        <!--Main header-->
+        <div class="mainHeader">
 
 
-				<!--Container-->
-			<div class="container clearfix">
-			<div class="one-third column">
-				<!--Logo-->
-				<div class="logo">
-				<a href="#wrapper"><h1>Sparse Tree</h1></a>
-				</div>
-				<!--End logo-->
-			</div>
+            <!--Container-->
+            <div class="container clearfix">
+                <div class="one-third column">
+                    <!--Logo-->
+                    <div class="logo">
+                        <a href="#wrapper"><h1>Sparse Tree</h1></a>
+                    </div>
+                    <!--End logo-->
+                </div>
 
 
-				<div class="two-thirds column">
-						<!--Navigation-->
-							<nav id="mainNav" >
-								<a href="#" class="mobileBtn" ><i class="icon-menu"></i></a>
+                <div class="two-thirds column">
+                    <!--Navigation-->
+                    <nav id="mainNav">
+                        <a href="#" class="mobileBtn"><i class="icon-menu"></i></a>
 
-							<ul>
-								<li><a href="#about">About us</a></li>
-								<li><a href="#services">Services</a></li>
-								<li><a href="#portfolio">Portfolio</a></li>
-								<li><a href="#contact">Contact</a></li>
+                        <ul>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#contact">Contact</a></li>
 
-							</ul>
+                        </ul>
 
-							</nav>
-						<!--End navigation-->
+                    </nav>
+                    <!--End navigation-->
 
-				</div>
-			<!--End container-->
+                </div>
+                <!--End container-->
 
 
+            </div>
+            <!--End main header-->
 
+            <!--Top socials-->
+            <div class="topSocials">
+                <ul class="one columns">
+                    <li class="facebook"><a href="#"><i class="fa fa-facebook facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin linkedin"></i></a></li>
+                </ul>
+                <ul class="one columns">
+                    <li><a href="#"><i class="fa fa-twitter twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github github"></i></a></li>
+                </ul>
+            </div>
+            <!--End top socials-->
+        </div>
+    </header>
+    <!--End header-->
 
-			</div>
-		<!--End main header-->
 
-			<!--Top socials-->
-			<div class="topSocials">
-				<ul class="one columns">
-					<li><a href="#"><i class="icon-facebook"></i></a></li>
-					<li><a href="#"><i class="icon-gplus"></i></a></li>
-				</ul>
-						<ul class="one columns">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-pinterest"></i></a></li>
-						</ul>
-			</div>
-			<!--End top socials-->
-			</div>
-	</header>
-	<!--End header-->
+    <!--Slider-->
+    <div class="slider">
 
+        <!--Main slider-->
+        <div class=" mainSlider flexslider">
 
 
-	<!--Slider-->
-	<div class="slider">
+            <ul class="slides">
 
-		<!--Main slider-->
-		<div class=" mainSlider flexslider">
+                <li><img src="{% static 'apps/images/sliderImages/slide1.jpg' %}" alt=""/>
+                    <div class="caption">
+                        <h1><span class="new">Sparse Tree</span> is all about finding you the right remote developer
+                        </h1>
+                    </div>
+                </li>
 
+                <li><img src="{% static 'apps/images/sliderImages/slide2.jpg' %}" alt=""/>
 
+                    <div class="caption">
+                        <h1>We specialize in <span class="new">Wordpress & PHP</span></h1>
+                    </div>
+                </li>
+            </ul>
 
 
-			<ul class="slides">
+        </div>
+        <!--End main slider-->
+    </div>
+    <!--End  slider-->
 
-				<li><img src="{% static 'apps/images/sliderImages/slide1.jpg' %}" alt=""/>
-				<div class="caption">
-					<h1><span class="new">Sparse Tree</span> is all about design passion </h1>
-				</div>
-				</li>
 
-					<li><img src="{% static 'apps/images/sliderImages/slide2.jpg' %}" alt="" />
+    <!--About section-->
+    <section id="about" class="offset section">
 
-						<div class="caption">
-							<h1>Crafted and designed with <span class="new">simplicity</span></h1>
-						</div>
-					</li>
-			</ul>
 
+        <!--Inner content-->
+        <div class="innerContent bBottom bottom2">
 
+            <!--Container-->
+            <div class="container clearfix">
 
-		</div>
-		<!--End main slider-->
-	</div>
-	<!--End  slider-->
+                <div class="sixteen columns">
+                    <h1 class="titleBig">About Us</h1>
+                    <p class="intro"><span class="black">SPARSE TREE</span> is aimed to provide quality remote
+                        workforce with an Australian outfront at reasonable prices.
+                    </p>
 
 
-	<!--About section-->
-	<section id="about" class="offset section">
+                    <div class="ctl">
+                        <!--<a class="regButton" href="#portfolio"><i class="icon-picture"></i>our portfolio</a>-->
+                    </div>
 
+                </div>
+            </div>
+            <!--End container-->
 
-				<!--Inner content-->
-				<div class="innerContent bBottom bottom2">
+        </div>
+        <!--End inner content-->
+        <!-- -->
+        <div class="innerContent bBottom bottom2">
 
-				<!--Container-->
-				<div class="container clearfix">
+            <!--Container-->
+            <div class="container clearfix">
 
-					<div class="sixteen columns">
-					<h1 class="titleBig">About Us</h1>
-					<p class="intro"><span class="black">SPARSE TREE</span> is a visual and interactive communication agency specialized in internet industry,
-					</p>
+                <div class="sixteen columns">
+                    <h1 class="titleBig">How are we different?</h1>
+                    <p class="intro">The company is founded by the people who have been working in software industry for
+                        many years.
+                        <br>We understand the culture, values, and the quality required by Australian business and we
+                        are here to help you find the right people with the right talent.
 
+                    </p>
+                    <div class="ctl">
+                        <p>We specialize in finding people with skills in php, wordpress.
+                            <br>We would also love to find you people with any other languages too!.</p>
+                    </div>
+                </div>
+            </div>
+            <!--End container-->
 
-						<div class="ctl">
-							<a class="regButton" href="#portfolio"><i class="icon-picture"></i>our portfolio</a>
-						</div>
-					</div>
-				</div>
-				<!--End container-->
+        </div>
+        <!-- -->
 
-				</div>
-				<!--End inner content-->
+    </section>
+    <!--End about section-->
 
+    <!--Testimonials and client section-->
 
+    <section id="testiCli" class="testiCliContainer">
 
-					<!--Inner content-->
-					<div class="innerContent bBottom bottom2">
+        <!--Overlay-->
+        <div class="overlay">
 
-					<!--Container-->
-					<div class="container clearfix">
 
-						<div class="sixteen columns">
-							<h2 class="titleSmall">Our Team</h2>
-						</div>
+            <!--Container-->
+            <div class="container clearfix">
 
-						<div class="one-third column team">
-							<img src="{% static 'apps/images/t1.jpg' %}" alt="">
-							<h2>Gaurav Dadhania<br><span>founder</span></h2>
+                <div class="sixteen columns">
 
-							<ul class="tSocials">
-								<li><a href="#"><i class="icon-facebook"></i></a></li>
-								<li><a href="#"><i class="icon-gplus"></i></a></li>
-								<li><a href="#"><i class="icon-twitter"></i></a></li>
-							</ul>
 
-						</div>
+                    <!--Testimonials slider-->
+                    <div class="testiSlider clearfix flexslider">
 
 
-							<div class="one-third column team">
-								<img src="{% static 'apps/images/t2.jpg' %}" alt="">
-								<h2>Harshad Bhatia<br><span>founder</span></h2>
+                        <ul class="slides">
+                            <li>
+                                <blockquote>Being the richest man in the cemetery doesn't matter to me.
+                                    Going to bed at night saying we've done something wonderful... that's what matters
+                                    to me
+                                </blockquote>
+                                <h3 class="testiProfile">Steve Jobs <span>&#8213; Founder</span></h3></li>
+                            <li>
+                                <blockquote>Being the richest man in the cemetery doesn't matter to me.
+                                    Going to bed at night saying we've done something wonderful... that's what matters
+                                    to me
+                                </blockquote>
+                                <h3 class="testiProfile">Steve Jobs <span>&#8213; Founder </span></h3></li>
 
-								<ul class="tSocials">
-									<li><a href="#"><i class="icon-facebook"></i></a></li>
-									<li><a href="#"><i class="icon-gplus"></i></a></li>
-									<li><a href="#"><i class="icon-linkedin"></i></a></li>
-								</ul>
+                        </ul>
 
-							</div>
+                    </div>
+                    <!--End testimonials slider-->
+                </div>
 
+            </div>
+            <!--End container-->
 
-              <!--
-								<div class="one-third column team">
-									<img src="images/t3.jpg" alt="">
-									<h2>Jenny Doe<br><span>developer</span></h2>
 
-									<ul class="tSocials">
-										<li><a href="#"><i class="icon-facebook"></i></a></li>
-										<li><a href="#"><i class="icon-vimeo"></i></a></li>
-										<li><a href="#"><i class="icon-twitter"></i></a></li>
-									</ul>
+            <div class="clientHolder">
 
-								</div>
-                -->
+                <!--Container-->
+                <div class="container clearfix">
 
+                    <div class="one-third column cIntro">
+                        <h2>Our Technologies</h2>
+                    </div>
 
-					</div>
-					<!--End container-->
+                    <div class="two-thirds column">
 
-					</div>
-					<!--End inner content-->
+                        <!--Clients slider-->
 
+                        <div class="clientSlider clearfix">
 
-						<!--Inner content-->
-						<div class="innerContent">
 
-						<!--Container-->
-						<div class="container clearfix">
+                            <ul class="slides">
+                                <li><a href="#"><i class="fa fa-html5 html5" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-wordpress wordpress"></i></a></li>
+                                <li><a href="#"><i class="fa fa-windows windows"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linux linux"></i></a></li>
+                            </ul>
+                            <ul class="slides">
+                                <li><a href="#"><i class="fa fa-github github" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-gitlab gitlab"></i></a></li>
+                                <li><a href="#"><i class="fa fa-css3 css3"></i></a></li>
+                                <li><a href="#"><i class="fa fa-apple apple"></i></a></li>
+                            </ul>
 
-							<div class="sixteen columns">
-								<h2 class="titleSmall">Our Skills</h2>
-							</div>
+                        </div>
 
+                        <!--End clients slider-->
 
-								<div class="nine columns skill">
-									<h1>You have a project in your mind ? </h1>
-                  <h2>Require PHP/ Worpdress remote developers ? </h2>
-									<h2>Or simply you want to say hello ?</h2>
-									<p>At finish me
-										 </p>
-									<a class="regButton" href="#contact"><i class="icon-mail"></i>contact us</a>
-								</div>
+                    </div>
 
 
+                </div>
+                <!--End container-->
+            </div>
 
 
-									<div class="seven columns ">
+        </div>
+        <!--End overlay-->
 
-										<div class="skillHolder ">
-                    <!--Skill-->
-										<div class="skillBar">
-										     <div class="skillbarHolder">
-										      <div class="skillbarTitle">Remote Team(s)</div>
-										      <div class="percentage percent100"><span></span></div>
-										      </div>
-										</div>
-										<!--End skill-->
 
-                    <!--Skill-->
-										<div class="skillBar">
-										     <div class="skillbarHolder">
-										      <div class="skillbarTitle">Wordpress</div>
-										      <div class="percentage percent100"><span></span></div>
-										      </div>
-										</div>
-										<!--End skill-->
+    </section>
+    <!--End testimonials and client section-->
 
-                    <!--Skill-->
-										<div class="skillBar">
-										     <div class="skillbarHolder">
-										      <div class="skillbarTitle">PHP</div>
-										      <div class="percentage percent100"><span></span></div>
-										      </div>
-										</div>
-										<!--End skill-->
+    <!--Our Team section-->
+    <section id="team" class="offset section">
 
-										<!--Skill-->
-										<div class="skillBar">
-										     <div class="skillbarHolder">
-										      <div class="skillbarTitle">Web Design</div>
-										      <div class="percentage percent95"><span></span></div>
-										      </div>
-										</div>
-										<!--End skill-->
+        <!--Inner content-->
+        <div class="innerContent bBottom">
 
+            <!--Container-->
+            <div class="container clearfix">
 
-										<!--Skill-->
-										<div class="skillBar">
-										     <div class="skillbarHolder">
-										      <div class="skillbarTitle">Graphic design</div>
-										      <div class="percentage percent95"><span></span></div>
-										      </div>
-										</div>
-										<!--End skill-->
+                <div class="sixteen columns">
+                    <h2 class="titleSmall">Our Team</h2>
+                </div>
 
+                <div class="one-third column team">
+                    <img src="{% static 'apps/images/t1.jpg' %}" alt="">
+                    <h2>Gaurav Dadhania<br><span>founder</span></h2>
 
-										<!--Skill-->
-										<div class="skillBar">
-										     <div class="skillbarHolder">
-										      <div class="skillbarTitle">Javascript</div>
-										      <div class="percentage percent95"><span></span></div>
-										      </div>
-										</div>
-										<!--End skill-->
+                    <ul class="tSocials">
+                        <li><a href="#"><i class="fa fa-facebook facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin linkedin"></i></a></li>
+                    </ul>
 
+                </div>
 
-											<!--Skill-->
-											<div class="skillBar">
-											     <div class="skillbarHolder">
-											      <div class="skillbarTitle">HTML &amp; CSS</div>
-											      <div class="percentage percent95"><span></span></div>
-											      </div>
-											</div>
-											<!--End skill-->
 
+                <div class="one-third column team">
+                    <img src="{% static 'apps/images/t2.jpg' %}" alt="">
+                    <h2>Harshad Bhatia<br><span>founder</span></h2>
 
+                    <ul class="tSocials">
+                        <li><a href="#"><i class="fa fa-facebook facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin linkedin"></i></a></li>
+                    </ul>
 
-										<!--Skill-->
-										<div class="skillBar">
-										     <div class="skillbarHolder">
-										      <div class="skillbarTitle">SEO</div>
-										      <div class="percentage percent95"><span></span></div>
-										      </div>
-										</div>
-										<!--End skill-->
+                </div>
 
 
+                <!--
+                                  <div class="one-third column team">
+                                      <img src="images/t3.jpg" alt="">
+                                      <h2>Jenny Doe<br><span>developer</span></h2>
 
+                                      <ul class="tSocials">
+                                          <li><a href="#"><i class="icon-facebook"></i></a></li>
+                                          <li><a href="#"><i class="icon-vimeo"></i></a></li>
+                                          <li><a href="#"><i class="icon-twitter"></i></a></li>
+                                      </ul>
 
-										</div>
-									</div>
+                                  </div>
+                  -->
 
-						</div>
-						<!--End container-->
 
-						</div>
-						<!--End inner content-->
+            </div>
+            <!--End container-->
 
+        </div>
+        <!--End inner content-->
 
-	</section>
-	<!--End about section-->
 
+    </section>
+    <!--End Our Team section-->
 
-		<!--Facts section-->
 
-		<section id="facts" class="factsContainer">
+    <!--Contact section-->
+    <section id="contact" class="offset section">
 
-					<!--Overlay-->
-					<div class="overlay">
 
+        <!--Inner content-->
+        <div class="innerContent">
 
-							<!--Container-->
-							<div class="container clearfix">
+            <!--Container-->
+            <div class="container clearfix">
 
-								<div class="sixteen columns">
+                <div class="sixteen columns">
+                    <h1 class="titleBig">contact us</h1>
+                </div>
 
+                <div class="one-third column info">
+                    <h2>Office Work Hours</h2>
+                    <p>O433660000</p>
+                    <ul class="workHours">
+                        <li>Monday - Friday : <span>09am - 6pm</span></li>
+                        <li>Saturday : <span>09am - 1pm</span></li>
+                        <li>Sunday : <span>closed</span></li>
+                    </ul>
+                </div>
 
-							<!--Facts slider-->
-									<div class="factSlider clearfix flexslider">
+                <div class="two-thirds column contactForm">
+                    <h2>Get In Touch With Us</h2>
+                    <p>Finish me</p>
 
+                    <div class="cForm">
+                        <form method="post" action="send.php">
 
-										<ul class="slides">
-											<li class="timer" data-perc="1300">
-											<i class="icon-thumbs-up icoF"></i>
-											<span class="fc">FaceBook Likes</span>
-											<span class="count">1</span>
-											</li>
 
-											<li class="timer" data-perc="100">
-											<i class="icon-rocket icoF"></i>
-											<span class="fc">Projects Achieved</span>
-											<span class="count">1</span>
+                            <p>
+                                <label for="name">Name <span class="required">*</span></label>
+                                <input type="text" name="name" id="name">
+                            </p>
 
-											</li>
+                            <p>
+                                <label for="email">Email <span class="required">*</span></label>
+                                <input type="text" name="email" id="email">
+                            </p>
 
-											<li class="timer" data-perc="60">
-											<i class="icon-briefcase icoF"></i>
-											<span class="fc">Trusted Clients</span>
-											<span class="count">1</span>
 
-											</li>
+                            <p>
+                                <label for="subject">Subject</label>
+                                <input type="text" name="subject" id="subject">
+                            </p>
 
-											<li class="last timer" data-perc="20">
-											<i class="icon-trophy icoF"></i>
-											<span class="fc">Awards Won</span>
-											<span class="count">0</span>
 
-											</li>
+                            <p>
+                                <label for="subject">Message <span class="required">*</span></label>
+                                <textarea name="message" id="message" cols="45" rows="10"></textarea>
+                            </p>
+                            <div id="submit" class="regButton"><i class="icon-mail"></i>Send message</div>
+                        </form>
+                        <div id="success"><h2>Your message has been sent. Thank you!</h2></div>
+                        <div id="error"><h2>Sorry your message can not be sent.</h2></div>
 
-										</ul>
 
-									</div>
+                    </div>
 
-							<!--End fact slider-->
 
+                </div>
 
-								</div>
 
+            </div>
+            <!--End container-->
 
-								</div>
-								<!--End container-->
 
-					</div>
-					<!--End overlay-->
+        </div>
+        <!--End inner content-->
 
+    </section>
 
-					</section>
-					<!--End facts section-->
+    <!--End contact section-->
 
 
+    <!--Footer-->
+    <footer class="footer  offset">
 
-					<!--Services section-->
-					<section id="services" class="offset section">
+        <!--Top footer-->
+        <div class="topFooter">
+            <!--Container-->
+            <div class="container clearfix">
 
+                <div class="four columns widget">
+                    <h2>Address</h2>
+                    <p>Sparse Tree<br>
+                        1/59 Everett Street Brunswick<br>
+                        VIC 3055</p>
+                </div>
 
-								<!--Inner content-->
-								<div class="innerContent ">
 
-								<!--Container-->
-								<div class="container clearfix">
+                <div class="four columns widget">
+                    <h2>Social</h2>
+                    <ul>
+                        <li><a href="#">FaceBook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
 
-										<div class="sixteen columns">
-										<h1 class="titleBig">our services</h1>
-										</div>
 
+                <div class="four columns widget">
+                    <h2>Call Us</h2>
 
-							<!--Service-->
-							<div class="one-third column service bottom3">
-								<h3><i class="icon-cloud"></i>Web Design</h3>
-									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-										 voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
-							</div>
-							<!--End service-->
 
-							<!--Service-->
-							<div class="one-third column service bottom3">
-								<h3><i class="icon-mobile"></i>Mobile Application</h3>
-									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-										 voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
-							</div>
-							<!--End service-->
+                    <ul>
+                        <li>+ 61433660000</li>
+                        <li>+ 91000000</li>
 
-							<!--Service-->
-							<div class="one-third column service bottom3">
-								<h3><i class=" icon-palette"></i>Graphic Design</h3>
-									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-										 voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
-							</div>
-							<!--End service-->
+                    </ul>
+                </div>
 
 
-							<!--Service-->
-							<div class="one-third column service bottom3">
-								<h3><i class="icon-megaphone"></i>Branding</h3>
-									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-										 voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
-							</div>
-							<!--End service-->
+                <div class="four columns widget">
+                    <h2>Our Email</h2>
 
-							<!--Service-->
-							<div class="one-third column service bottom3">
-								<h3><i class="icon-paper-plane"></i>Social Media</h3>
-									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-										 voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
-							</div>
-							<!--End service-->
 
-							<!--Service-->
-							<div class="one-third column service bottom3">
-								<h3><i class="icon-bell"></i>Motion Graphic</h3>
-									<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-										 voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
-							</div>
-							<!--End service-->
+                    <ul>
+                        <li><a href="#">hello@sparsetree.com.au</a></li>
+                    </ul>
 
-								</div>
-								<!--End container-->
+                </div>
 
-								</div>
-								<!--End inner content-->
+            </div>
+            <!--End container-->
+        </div>
+        <!--End top footer-->
 
-					</section>
-					<!--End facts section-->
+        <!--Bottom footer-->
+        <div class="bottomFooter">
+            <!--Container-->
+            <div class="container clearfix">
 
+                <div class="eight columns">
 
+                    <p>© 2017 <span class="bLogo">Sparse Tree</span> All Rights Reserved.</p>
+                </div>
 
+            </div>
+            <!--End container-->
+        </div>
+        <!--End bottom footer-->
 
-					<!--Testimonials and client section-->
 
-					<section id="testiCli" class="testiCliContainer">
+    </footer>
 
-								<!--Overlay-->
-								<div class="overlay">
-
-
-										<!--Container-->
-										<div class="container clearfix">
-
-											<div class="sixteen columns">
-
-
-										<!--Testimonials slider-->
-												<div class="testiSlider clearfix flexslider">
-
-
-													<ul class="slides">
-													<li><blockquote>Being the richest man in the cemetery doesn't matter to me.
-														Going to bed at night saying we've done something wonderful... that's what matters to me</blockquote>
-														<h3 class="testiProfile">Steve Jobs <span>&#8213; Founder</span></h3> </li>
-														<li><blockquote>Being the richest man in the cemetery doesn't matter to me.
-															Going to bed at night saying we've done something wonderful... that's what matters to me </blockquote>
-															<h3 class="testiProfile">Steve Jobs <span>&#8213; Founder </span></h3></li>
-
-
-													</ul>
-
-														</div>
-												<!--End testimonials slider-->
-													</div>
-
-													</div>
-													<!--End container-->
-
-
-										<div class="clientHolder">
-
-												<!--Container-->
-												<div class="container clearfix">
-
-													<div class="one-third column cIntro">
-													<h2>Our Technologies</h2>
-													<p>Finish me</p>
-													</div>
-
-													<div class="two-thirds column">
-
-									<!--Clients slider-->
-
-									<div class="clientSlider clearfix flexslider">
-
-
-										<ul class="slides">
-										<li><a href="#"><i class="icon-google-circles"></i></a></li>
-										<li><a href="#"><i class="icon-renren"></i></a></li>
-										<li><a href="#"><i class="icon-sina-weibo"></i></a></li>
-										<li><a href="#"><i class="icon-evernote"></i></a></li>
-										<li><a href="#"><i class="icon-dropbox"></i></a></li>
-										<li><a href="#"><i class="icon-google-circles"></i></a></li>
-										<li><a href="#"><i class="icon-dropbox"></i></a></li>
-										<li><a href="#"><i class="icon-sina-weibo"></i></a></li>
-										<li><a href="#"><i class="icon-evernote"></i></a></li>
-										<li><a href="#"><i class="icon-stumbleupon"></i></a></li>
-
-
-										</ul>
-
-										</div>
-
-											<!--End clients slider-->
-
-													</div>
-
-
-													</div>
-													<!--End container-->
-										</div>
-
-
-										</div>
-										<!--End overlay-->
-
-
-										</section>
-										<!--End testimonials and client section-->
-
-
-
-							<!--Contact section-->
-							<section id="contact" class="offset section">
-
-
-										<!--Inner content-->
-										<div class="innerContent">
-
-										<!--Container-->
-										<div class="container clearfix">
-
-											<div class="sixteen columns">
-											<h1 class="titleBig">contact us</h1>
-											</div>
-
-											<div class="one-third column info">
-												<h2>Office Work Hours</h2>
-												<p>O433660000</p>
-												<ul class="workHours">
-													<li>Monday - Friday : <span>09am - 6pm</span></li>
-													<li>Saturday : <span>09am - 1pm</span> </li>
-													<li>Sunday : <span>closed</span></li>
-												</ul>
-											</div>
-
-												<div class="two-thirds column contactForm">
-													<h2>Get In Touch With Us</h2>
-													<p>Finish me</p>
-
-													<div class="cForm">
-													<form method="post" action="send.php">
-
-
-														<p>
-														<label for="name">Name <span class="required">*</span></label>
-												        <input type="text" name="name" id="name">
-														</p>
-
-														<p>
-														<label for="email">Email <span class="required">*</span></label>
-												        <input type="text" name="email" id="email">
-														</p>
-
-
-															<p>
-															<label for="subject">Subject</label>
-													        <input type="text" name="subject" id="subject">
-															</p>
-
-
-
-
-															<p>
-															<label for="subject">Message <span class="required">*</span></label>
-												 <textarea name="message" id="message" cols="45" rows="10"></textarea>
-												</p>
-												        <div id="submit" class="regButton"><i class="icon-mail"></i>Send message</div>
-												      </form>
-													<div id="success"><h2>Your message has been sent. Thank you!</h2></div>
-													<div id="error"><h2>Sorry your message can not be sent.</h2></div>
-
-
-												</div>
-
-
-												</div>
-
-
-
-
-												</div>
-												<!--End container-->
-
-
-											</div>
-											<!--End inner content-->
-
-											</section>
-
-												<!--End contact section-->
-
-
-								<!--Footer-->
-									<footer class="footer  offset">
-
-										<!--Top footer-->
-										<div class="topFooter">
-											<!--Container-->
-											<div class="container clearfix">
-
-												<div class="four columns widget">
-												<h2>Address</h2>
-													<p>Sparse Tree<br>
-													59 Everett Street Brunswick<br>
-													VIC 3055</p>
-												</div>
-
-
-													<div class="four columns widget">
-													<h2>Social</h2>
-														<ul>
-														<li><a href="#">FaceBook</a></li>
-														<li><a href="#">Twitter</a></li>
-														<li><a href="">Google Plus</a></li>
-														<li><a href="#">Pinterest</a></li>
-														<li><a href="#">LinkedIn</a></li>
-														</ul>
-													</div>
-
-
-														<div class="four columns widget">
-														<h2>Call Us</h2>
-
-
-
-															<ul>
-															<li>+ 61433660000</li>
-															<li>+ 91000000</li>
-
-															</ul>
-														</div>
-
-
-														<div class="four columns widget">
-														<h2>Our Email</h2>
-
-
-															<ul>
-															<li><a href="#">hello@sparsetree.com.au</a></li>
-															</ul>
-
-														</div>
-
-												</div>
-												<!--End container-->
-										</div>
-										<!--End top footer-->
-
-										<!--Bottom footer-->
-										<div class="bottomFooter">
-												<!--Container-->
-												<div class="container clearfix">
-
-													<div class="eight columns">
-
-														<p>© 2017 <span class="bLogo">Sparse Tree</span> All Rights Reserved.</p>
-													</div>
-
-										</div>
-											<!--End container-->
-										</div>
-											<!--End bottom footer-->
-
-
-									</footer>
-
-						<!--End footer-->
-
-
+    <!--End footer-->
 
 
 </div>
@@ -769,11 +525,13 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108547006-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-108547006-1');
+    gtag('config', 'UA-108547006-1');
 </script>
 
 
